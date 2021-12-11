@@ -1,0 +1,61 @@
+# Plugin gemaakt door Rivzer
+# This plugin also supports CustomDrugs (You can find it on spigot) (Link: https://bit.ly/CustomDrugs)
+
+DrugsLijst:
+  - Wiet
+  - Cocaine
+  - Drakenvlees
+  - Paddo
+  - Heroine
+  - Marijuana
+
+DrugsInfo:
+  Wiet:
+    matterial: POISONOUS_POTATO
+    taking: "&7Wiet aan het inemen..."
+    effects:
+      - CONFUSION
+      - SLOW
+    effect_duration: 35
+    perm: drugsconsume.farmwiet
+  Cocaine:
+    matterial: RED_ROSE
+    taking: "&7Cocaine aan het inemen..."
+    effects:
+      - SPEED
+    effect_duration: 35
+    perm: drugs.coke
+  Drakenvlees:
+    matterial: ROTTEN_FLESH
+    taking: "&7Drakenvlees aan het inemen..."
+    effects:
+      - FIRE_RESISTANCE
+      - CONFUSION
+    effect_duration: 35
+    perm: drugs.drakenvlees
+  Paddo:
+    matterial: BROWN_MUSHROOM
+    taking: "&7Paddo aan het inemen..."
+    effects:
+      - GLOWING
+      - HEALTH_BOOST
+    effect_duration: 35
+    perm: drugs.paddo
+  Heroine:
+    matterial: RED_MUSHROOM
+    taking: "&7Heroine aan het inemen..."
+    effects:
+      - WEAKNESS
+    effect_duration: 35
+    perm: drugs.heroine
+  Marijuana:
+    matterial: YELLOW_FLOWER
+    taking: "&7Marijuana aan het inemen..."
+    effects:
+      - BLINDNESS
+      - SPEED
+    effect_duration: 35
+    perm: drugs.marijuana
+
+Settings:
+  PluginEnabled: true

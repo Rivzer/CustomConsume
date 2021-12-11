@@ -1,0 +1,15 @@
+name: DrugsConsume
+version: 1.1
+main: be.itsjust4you.drugsconsume.Main
+authors: [ ItsJust4You ]
+description: DrugsConsume Plugin
+
+commands:
+  consume:
+    description: Main Command
+
+permissions:
+  drugsconsume.help:
+    description: help menu
+  drugsconsume.reload:
+    description: reload
